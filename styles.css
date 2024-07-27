@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #1F305E;
+}
+
+nav > .logo {
+    height: 80px;
+    width: 25%;
+}
+
+.logo > img {
+    height: 70px;
+    width: 50%;
+    mix-blend-mode: multiply;
+    display: block;
+    margin: 0px 0px 0px 80px;
+}
+
+nav ul {
+    float: right;
+    margin-top: -50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 15px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.main > img {
+    height: 500px;
+    width: 100%;
+}
+
+.main > h1 {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font-size: 120px;
+    color: #fff;
+}
+
+.main > p {
+    position: absolute;
+    top: 250px;
+    left: 370px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.about {
+    height: 600px;
+    width: 100%;
+    background-color: wheat;
+}
+
+.about > .content {
+    height: 600px;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.about > .content h1 {
+    position: absolute;
+    top: 50px;
+}
+
+.about > .content p {
+    position: absolute;
+    top: 90px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.images {
+    height: 250px;
+    width: 85%;
+    position: absolute;
+    top: 880px;
+    left: 127px;
+}
+
+.images > img {
+    height: 240px;
+    width: 22%;
+    display: inline-flex;
+    justify-content: space-around;  
+    margin-right: 17px;
+}
+
+.menu {
+    height: 900px;
+    width: 100%;
+    color: #fff;
+    background-color: #1F305E;
+}
+
+.menu > .content2 {
+    height: 800px;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.menu > .content2 h1{
+    position: absolute;
+    top: 60px;
+}
+
+.menu > .content2 p {
+    position: absolute;
+    top: 120px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.cards {
+    height: 480px;
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+}
+
+.cards > .card {
+    height: 500px;
+    width: 49%;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.card > img {
+    height: 240px;
+    width: 100%;
+    display: inline-block;
+}
+
+.card > h3 {
+    margin-bottom: 15px;
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.text2 {
+    width: 45%;
+    position: absolute;
+    top: 180px;
+    left: 650px;
+}
+
+.location {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: wheat;
+}
+
+.location > .info {
+    height: 600px;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.info > h1 {
+    position: absolute;
+    top: 50px;
+}
+
+iframe{
+    position: absolute;
+    top: 120px;
+    width: 700px;
+}
+
+.additional {
+    position: absolute;
+    top: 120px;
+    left: 850px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+}
